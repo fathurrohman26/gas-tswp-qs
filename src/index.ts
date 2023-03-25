@@ -1,4 +1,4 @@
-import { sum } from "@/utils/math";
+import { sum } from "./utils/math";
 
 function doGet(e: GoogleAppsScript.Events.DoGet) {
   const n1 = parseInt(e.parameter.n1 || "10");

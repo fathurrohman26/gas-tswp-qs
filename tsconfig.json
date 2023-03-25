@@ -10,10 +10,7 @@
     "esModuleInterop": true,
     "outDir": "./build",
     "lib": ["ES2020"],
-    "types": ["google-apps-script", "jest"],
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "types": ["google-apps-script", "jest"]
   },
   "include": ["src"]
 }
