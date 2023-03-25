@@ -1,0 +1,9 @@
+{
+  "name": "gas-tswp-qs",
+  "version": "1.0.0",
+  "description": "GAS - TypeScript - Webpack - Quick Start",
+  "repository": "git@github.com:fathurrohman26/gas-tswp-qs.git",
+  "author": "Fathurrohman <fathurrohmanrosyadi@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
