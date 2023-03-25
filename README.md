@@ -10,5 +10,8 @@ cd my-gas-app
 yarn
 yarn test
 yarn build
+
+# Before pushing to GAS Cloud, replace ScriptID in .clasp.json
+
 yarn push
 ```
