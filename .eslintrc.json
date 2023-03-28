@@ -1,4 +1,5 @@
 {
+  "plugins": ["@typescript-eslint", "googleappsscript", "eslint-plugin-tsdoc"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -14,9 +15,11 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "googleappsscript"],
   "env": {
     "googleappsscript/googleappsscript": true,
     "es6": true
+  },
+  "rules": {
+    "tsdoc/syntax": "warn"
   }
 }
