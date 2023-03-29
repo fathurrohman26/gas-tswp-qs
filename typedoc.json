@@ -1,0 +1,10 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./src/index.ts"],
+  "out": "docs",
+  "name": "GAS TSWP QS",
+  "gitRemote": "origin",
+  "emit": "docs",
+  "logger": "console",
+  "sort": ["kind", "instance-first", "alphabetical"]
+}
