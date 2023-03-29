@@ -7,8 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "tsc && cross-env NODE_ENV=development webpack",
-    "push": "clasp push -f",
+    "build": "tsc && cross-env NODE_ENV=development webpack && yarn docs && yarn docs:json",
+    "push": "yarn build && yarn clasp push -f",
     "lint": "eslint",
     "format": "prettier --list-different --write .",
     "test": "cross-env NODE_ENV=development jest",
