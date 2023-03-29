@@ -1,0 +1,7 @@
+build
+docs
+*.lock
+**/.git
+**/.svn
+**/.hg
+**/node_modules

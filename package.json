@@ -10,7 +10,7 @@
     "build": "tsc && cross-env NODE_ENV=development webpack",
     "push": "clasp push -f",
     "lint": "eslint",
-    "format": "prettier",
+    "format": "prettier --list-different --write .",
     "test": "cross-env NODE_ENV=development jest",
     "docs": "typedoc"
   },
