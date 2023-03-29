@@ -1,5 +1,7 @@
 build
 docs
+Code.js
+Test.js
 *.lock
 **/.git
 **/.svn
